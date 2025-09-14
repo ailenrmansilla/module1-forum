@@ -1,0 +1,22 @@
+﻿@* The code between @ is compiled ac C# code, 
+while the rest of the code here is compiled as HTML 
+This allow index to be a routable page*@
+@page
+@model forum.Pages.IndexModel
+@{
+    ViewData["Title"] = "Welcome to Ailen's forum";
+}
+<h1>Ailen's Module #1 Forum</h1>
+
+<a id="add-post-button" href="/NewPost">Add New Post</a>
+<hr />
+
+@foreach (var post in Model.Posts)
+{
+    <article>
+        <h2><a href="/Post/@post.Id">@post.Title</a></h2>
+        <p>@post.Content</p>
+        <small>@post.Author — @post.CreatedAt.ToLocalTime()</small>
+    </article>
+    <hr />
+}

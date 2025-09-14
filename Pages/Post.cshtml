@@ -1,0 +1,25 @@
+@* Displays post with its replies. 
+It also allows you to add new replies *@
+@page "{id:int}"
+@model forum.Pages.PostModel
+
+@if (Model.CurrentPost != null)
+{
+    <h1>@Model.CurrentPost.Title</h1>
+    <div id="post-body">
+    <p>@Model.CurrentPost.Content</p>
+    <small>@Model.CurrentPost.Author — @Model.CurrentPost.CreatedAt.ToLocalTime()</small>
+    </div>
+    <ul>
+    @foreach (var reply in Model.CurrentPost.Replies)
+    {
+        <li>@reply</li>
+    }
+    </ul>
+
+    <form method="post">
+        <textarea asp-for="Reply" placeholder="Add reply"></textarea>
+        
+        <button type="submit">Reply</button>
+    </form>
+}

@@ -1,0 +1,11 @@
+@page
+@model forum.Pages.NewPostModel
+
+<h1>New Post</h1>
+<form method="post">
+    <input asp-for="Title" placeholder="Add a title" required/>
+    <input asp-for="Author" placeholder="Author" required/>
+    <textarea asp-for="Content" placeholder="Share your thoughts..." required></textarea>
+    <br/>
+    <button type="submit">Submit</button>
+</form>
