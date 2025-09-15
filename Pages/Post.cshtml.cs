@@ -1,3 +1,4 @@
+// This is the PageModel class that handles the logic to store a post, retreive it, and refresh with an updated list of replies
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using forum.Data;

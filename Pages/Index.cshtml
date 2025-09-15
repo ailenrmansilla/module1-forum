@@ -12,6 +12,7 @@ This allow index to be a routable page*@
 <hr />
 
 @foreach (var post in Model.Posts)
+@* loads each post inside an article component *@
 {
     <article>
         <h2><a href="/Post/@post.Id">@post.Title</a></h2>

@@ -1,3 +1,5 @@
+// This logic handles all the posts in Index page.
+// The PageModel contains properties and methods used in Index.cshtml
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using forum.Data;
 using forum.Models;

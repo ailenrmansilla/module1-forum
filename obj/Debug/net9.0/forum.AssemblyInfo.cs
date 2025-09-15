@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("forum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bf723601aa3e76b69a97e363d6c535e1a513c64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a4cbbd860c0c1ef7849f9a28c3b8513d9cac61")]
 [assembly: System.Reflection.AssemblyProductAttribute("forum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("forum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

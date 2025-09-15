@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7PXYiHAPyMtL0TKR6iE+vplmkg1QJ5VGHW5LYQErTbw=",
+  "Hash": "kfa6B0cyRVRfzxATt+kMKj0cQsWBawXfquKm9IeReUw=",
   "Source": "forum",
   "BasePath": "_content/forum",
   "Mode": "Default",
@@ -500,12 +500,12 @@
       "OriginalItemSpec": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-dm1kuphodg.gz",
+      "Identity": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-3zbv4faon7.gz",
       "SourceId": "forum",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/forum",
-      "RelativePath": "css/site#[.{fingerprint=dm1kuphodg}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=3zbv4faon7}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -514,8 +514,8 @@
       "RelatedAsset": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ovdtn0g8zf",
-      "Integrity": "fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A=",
+      "Fingerprint": "36zaabargh",
+      "Integrity": "i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dm1kuphodg",
-      "Integrity": "NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4=",
+      "Fingerprint": "3zbv4faon7",
+      "Integrity": "Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-dm1kuphodg.gz",
+      "Route": "css/site.3zbv4faon7.css",
+      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-3zbv4faon7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001865671642"
+          "Quality": "0.001572327044"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "535"
+          "Value": "635"
         },
         {
           "Name": "ETag",
-          "Value": "\"fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A=\""
+          "Value": "\"i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 04:26:32 GMT"
+          "Value": "Sun, 14 Sep 2025 04:43:05 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,18 +2772,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4=\""
+          "Value": "W/\"Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "3zbv4faon7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4="
+          "Value": "sha256-Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.3zbv4faon7.css",
       "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2793,7 +2801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1560"
+          "Value": "1948"
         },
         {
           "Name": "Content-Type",
@@ -2801,121 +2809,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4=\""
+          "Value": "\"Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 04:26:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-dm1kuphodg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "535"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 04:26:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.dm1kuphodg.css",
-      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-dm1kuphodg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001865671642"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "535"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 04:26:32 GMT"
+          "Value": "Sun, 14 Sep 2025 04:43:05 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dm1kuphodg"
+          "Value": "3zbv4faon7"
         },
         {
           "Name": "label",
@@ -2923,13 +2831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4="
+          "Value": "sha256-Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg="
         }
       ]
     },
     {
-      "Route": "css/site.dm1kuphodg.css",
-      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\wwwroot\\css\\site.css",
+      "Route": "css/site.3zbv4faon7.css.gz",
+      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-3zbv4faon7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2938,7 +2846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1560"
+          "Value": "635"
         },
         {
           "Name": "Content-Type",
@@ -2946,56 +2854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4=\""
+          "Value": "\"i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 04:26:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dm1kuphodg"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NTfcwnbDVHUkNWf5mnScWiKEEIyCJuPxswmF+DitTd4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.dm1kuphodg.css.gz",
-      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-dm1kuphodg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "535"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 04:26:32 GMT"
+          "Value": "Sun, 14 Sep 2025 04:43:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +2876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dm1kuphodg"
+          "Value": "3zbv4faon7"
         },
         {
           "Name": "label",
@@ -3021,7 +2884,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fJ3boHPmWxGvk78zUY404J300tcy02jM+AG2+LLsH8A="
+          "Value": "sha256-i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-3zbv4faon7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001572327044"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Sep 2025 04:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Sep 2025 04:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xw7MoX6Yu6hUbPXG5zv+tD1YUmuXDRhZzy7tgZxFJkg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Ailen Mansilla\\Downloads\\BYU Idaho\\Applied Programming\\module 1\\forum\\obj\\Debug\\net9.0\\compressed\\ct8tgabrqe-3zbv4faon7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Sep 2025 04:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4ZYpr8iwlwY04OF8Y76Bnn74Bg8FL+XuL64Xq0IMFk="
         }
       ]
     },

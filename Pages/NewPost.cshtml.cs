@@ -1,3 +1,4 @@
+// This PageModel class handles post submissions and redirects to Index
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using forum.Data;
